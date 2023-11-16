@@ -75,7 +75,7 @@ const Form = () => {
         color: "#42ba96",
         borderColor: "#42ba96",
       };
-    } else if (emailValid == "") {
+    } else if (emailValid === "") {
       return {
         width: "100%",
         backgroundColor: "white",
